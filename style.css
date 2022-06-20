@@ -6,8 +6,8 @@ body {
 .header {
     background-color: #1F2937;
     color: #F9FAF8;
-    padding-left: 32px;
-    padding-right: 32px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 a {
@@ -63,7 +63,7 @@ a {
     color: #E5E7EB;
 }
 
-button {
+.hero button {
     background-color: #3882F6;
     border: none;
     color: white;
@@ -114,7 +114,6 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
 }
 
 .img {
@@ -134,5 +133,75 @@ button {
 /*--------------quote------------*/
 
 .quote {
-    
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.quote .text {
+    font-size: 36px;
+    font-style:italic;
+    color: #1F2937;
+}
+
+.quote .foot {
+    text-align: right;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+/*---------call to action-------*/
+
+.call-to-action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: #3882F6;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    gap: 100px;
+    border-radius: 8px;
+}
+
+.call-to-action .text .head {
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.call-to-action .text .sub {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.call-to-action button {
+    background-color: #3882F6;
+    border-color: #F9FAF8;
+    border-style: solid;
+    border-radius: 8px;
+    height: 30px;
+    width: 110px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+/*-----------footer------------*/
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 30px;
+    font-size: 18px;;
 }
