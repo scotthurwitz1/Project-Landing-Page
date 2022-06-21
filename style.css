@@ -40,59 +40,69 @@ a {
 
 /*-----header B (hero)------------*/
 
-.hero {
-    display: flex;
-    background-color: #1F2937;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    gap: 30px;
-    flex-wrap: wrap-reverse;
-}
+.hero /*vertical*/ {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    }
 
-.hero .text{
-    flex: 1;
-    min-width: 400px;
-}
+    .hero .container /*horizontal*/ {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
 
-.hero .text .main-text {
-    font-size: 48px;
-    font-weight: bolder;
-    color: #F9FAF8;
-}
+        .hero .empty {
+            width: 50px;
+            flex-shrink: 1.2;
+        }
 
-.hero .text .secondary-text{
-    font-size: 18px;
-    color: #E5E7EB;
-    max-width: 400px;
-}
+        .hero .content {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap-reverse;
+        }
 
-.hero button {
-    background-color: #3882F6;
-    border: none;
-    color: white;
-    font-weight: bold;
-    height: 30px;
-    width: 100px; 
-    margin-top: 8px;
-    border-radius: 5px;
-}
+            .hero .text{
+                min-width: 300px;
+                flex: 1
+            }
 
-.hero .image {
-    flex: 1 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #1F2937;
-    min-width: 300px;
-    min-height: 300px;
-    margin-left: 30px;
-}
+                .hero .text .main-text {
+                    font-size: 48px;
+                    font-weight: bolder;
+                    color: #F9FAF8;
+                }
 
-.hero img {
-    width: 100%;
-    height auto;
-    border-radius: 20px;
-}
+                .hero .text .secondary-text{
+                    font-size: 18px;
+                    color: #E5E7EB;
+                    max-width: 400px;
+                }
+
+                .hero button {
+                    background-color: #3882F6;
+                    border: none;
+                    color: white;
+                    font-weight: bold;
+                    height: 30px;
+                    width: 100px; 
+                    margin-top: 8px;
+                    border-radius: 5px;
+                }
+
+            .hero .image {
+                background-color: #1F2937;
+                flex: 1;
+            }
+
+                .hero img {
+                    width: 100%;
+                    border-radius: 20px;
+                    min-height: 200px;
+                    min-width: 300px;
+                }
+
+
 
 /*--------------random info------------------*/
 
@@ -181,7 +191,6 @@ a {
 .call-to-action {
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .call-to-action .container {
@@ -204,6 +213,8 @@ a {
 .call-to-action .container .content {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
 }
 
 .call-to-action .text .head {
