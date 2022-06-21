@@ -173,20 +173,30 @@ a {
 
 .call-to-action {
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action .container {
+    display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 50px;
     margin-bottom: 50px;
-    margin-left: 100px;
-    margin-right: 100px;
-    background-color: #3882F6;
-    padding-left: 100px;
-    padding-right: 100px;
     padding-top: 30px;
     padding-bottom: 30px;
+    background-color: #3882F6;
     border-radius: 8px;
+}
+
+.call-to-action .container .empty {
+    width: 30px;
+    flex-shrink: 5;
+}
+
+.call-to-action .container .content {
+    display: flex;
     flex-wrap: wrap;
-    gap: 20px;
 }
 
 .call-to-action .text .head {
