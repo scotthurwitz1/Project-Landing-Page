@@ -130,7 +130,6 @@ a {
     width: 130px;
     border: 4px solid rgb(83, 129, 237);
     border-radius: 8px;
-    
 }
 
 .subtext {
@@ -145,11 +144,17 @@ a {
 .quote {
     background-color: #E5E7EB;
     display: flex;
-    flex-direction: column;
-    padding-left: 150px;
-    padding-right: 150px;
     padding-top: 100px;
     padding-bottom: 100px;
+}
+
+.quote .content {
+    flex-direction: column;
+}
+
+.quote .empty {
+    width: 1000px;
+    flex-shrink: 1.2;
 }
 
 .quote .text {
@@ -179,8 +184,9 @@ a {
     padding-right: 100px;
     padding-top: 30px;
     padding-bottom: 30px;
-    gap: 100px;
     border-radius: 8px;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .call-to-action .text .head {
@@ -203,6 +209,7 @@ a {
     width: 110px;
     color: #F9FAF8;
     font-weight: bold;
+    flex-shrink: 0;
 }
 
 /*-----------footer------------*/
