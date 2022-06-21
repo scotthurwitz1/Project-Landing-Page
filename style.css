@@ -48,6 +48,7 @@ a {
     padding-top: 100px;
     padding-bottom: 100px;
     gap: 30px;
+    flex-wrap: wrap;
 }
 
 .hero .text{
@@ -82,6 +83,7 @@ a {
     justify-content: center;
     align-items: center;
     background-color: grey;
+    flex-shrink: 0;
 }
 
 .hero .image .placeholder {
