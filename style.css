@@ -103,6 +103,7 @@ a {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    min-width: 500px;
 }
 
 .random-info .images {
@@ -111,6 +112,7 @@ a {
     padding-right: 100px;
     gap: 40px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .random-info .images .image { 
