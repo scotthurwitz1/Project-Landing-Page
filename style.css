@@ -6,8 +6,6 @@ body {
 .header {
     background-color: #1F2937;
     color: #F9FAF8;
-    padding-left: 150px;
-    padding-right: 150px;
 }
 
 a {
@@ -21,6 +19,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    min-width: 600px;
 }
 
 .head .title {
@@ -28,6 +27,7 @@ a {
     color: #F9FAF8;
     font-weight: 700;
     flex-shrink: 0;
+    width: 200px;
 }
 
 .head .links {
@@ -83,7 +83,6 @@ a {
     justify-content: center;
     align-items: center;
     background-color: grey;
-    flex-shrink: 0;
 }
 
 .hero .image .placeholder {
