@@ -16,6 +16,7 @@ a {
 /*------header A (head)------*/
 
 .head {
+    padding-top: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -152,7 +153,7 @@ a {
 
 .img img {
     width: 100%;
-    height auto;
+    height: auto;
     border-radius: 6px;
 }
 
